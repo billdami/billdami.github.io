@@ -1,3 +1,10 @@
+# jekyll configuration
+baseurl: 'http://billdami.com'
 safe: true
 lsi: false
 pygments: true
+permalink: pretty
+exclude: ['less', 'vendor', 'node_modules', 'package.json', 'Gruntfile.js', 'README.md', '*.sublime-project']
+
+# other configuration data
+simpleform_token: '0ad834d3335a1a214206263ad59e68c1'

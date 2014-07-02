@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>{{ page.title }}</title>
-	</head>
-	<body>
-		{{ content }}
-	</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Bill Dami" />
+        <meta name="description" content="The portfolio and resume of web developer and programmer, Bill Dami." />
+        <meta name="keywords" content="Bill Dami, portfolio, resume, web development, programming, software, design, ui, ux, frontend" />
+        <title>{{ page.title }}</title>
+        <link type="text/css" rel="stylesheet" media="all" href="/css/billdami.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="/" class="logo"></a>
+                    <ul class="page-nav">
+                        <li{% if page.url == '/' %} class="active"{% endif %}>
+                            <a href="/">home</a>
+                        </li>
+                        <li{% if page.url contains '/work/' %} class="active"{% endif %}>
+                            <a href="/work/">work</a>
+                        </li>
+                        <li{% if page.url == '/resume/' %} class="active"{% endif %}>
+                            <a href="/resume/">r‌&eacute;sum‌&eacute;</a>
+                        </li>
+                        <li{% if page.url == '/contact/' %} class="active"{% endif %}>
+                            <a href="/contact/">contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-13">
+                    <div class="page-content">
+                        {{ content }}
+                    </div>
+                    <footer class="page-copyright">
+                        <small>
+                            &copy; 2014 Bill Dami. 
+                            Powered by <a href="https://github.com/billdami/billdami.github.io">github</a> and <a href="http://jekyllrb.com/">jekyll</a>.</small>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

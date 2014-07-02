@@ -1,0 +1,88 @@
+.resume-sec-head {
+  padding: 4px 0;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+.skill-bars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  > li {
+    //border: 1px solid #ececec;
+    box-shadow: inset 0 0 0 1px #ececec;
+    display: block;
+    margin-bottom: 6px;
+    background: #F5F5F5;
+
+    > div {
+      padding: 4px 6px;
+      background: #478dc2;
+      font-size: 90%;
+      color: #fff;
+    }
+
+    &:nth-child(even) > div {
+      background: #8c8c8c;
+    }
+  }
+}
+
+.skill-bar-legend {
+  list-style: none;
+  margin: 10px 0 20px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ececec;
+
+  > li {
+    position: relative;
+    float: left;
+    display: block;
+    width: 25%;
+    white-space: nowrap;
+    font-size: 11px;
+    color: #999;
+
+    &:after {
+      content: " ";
+      position: absolute;
+      bottom: -20px;
+      height: 10px;
+      width: 1px;
+      background: #ececec;
+    }
+
+    &:nth-child(1) {
+      text-align: left;
+
+      &:after {
+        left: 0;
+      }
+    }
+
+    &:nth-child(2) {
+      text-align: center;
+
+      &:after {
+        left: 33.333%;
+      }
+    }
+
+    &:nth-child(3) {
+      text-align: center;
+
+      &:after {
+        right: 33.333%;
+      }
+    }
+
+    &:nth-child(4) {
+      text-align: right;
+
+      &:after {
+        right: 0;
+      }
+    }
+  }
+}

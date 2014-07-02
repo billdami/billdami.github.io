@@ -1,0 +1,35 @@
+// screens < 768px (smartphones)
+// --------------------------------------------------
+@media (max-width: @screen-xs-max) {
+  //grids
+  .row > [class*='col-'] {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  //page layout
+  .page-container {
+    margin-top: 0;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+
+  .page-nav {
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+
+    > li {
+      display: inline-block;
+
+      > a {
+        display: inline-block;
+        padding: 6px;
+        border-bottom: 0;
+      }
+    }
+  }
+}

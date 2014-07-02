@@ -4,8 +4,10 @@ This repository contains all the data for my (future) personal website, billdami
 # License
 The following directories and their contents are copyright Bill Dami.  You may not reuse anything therein without my permission:
 
-*   _drafts/
-*   _posts/
-*   img/
+* _drafts/
+* _posts/
+* img/
+* resume/
+* work/
 
 All other directories and files are MIT Licensed.

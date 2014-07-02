@@ -1,0 +1,9 @@
+{
+  "name": "billdami.com",
+  "version": "1.0.0",
+  "devDependencies": {
+    "broccoli": "~0.12.3",
+    "broccoli-less-single": "~0.1.4",
+    "broccoli-env": "0.0.1"
+  }
+}
