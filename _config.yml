@@ -4,6 +4,7 @@ safe: true
 lsi: false
 pygments: true
 permalink: pretty
+markdown: kramdown
 exclude: ['less', 'vendor', 'node_modules', 'package.json', 'Gruntfile.js', 'README.md', '*.sublime-project']
 
 # other configuration data
