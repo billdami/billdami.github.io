@@ -2,7 +2,7 @@
 baseurl: 'http://billdami.com'
 safe: true
 lsi: false
-highlighter: rogue
+highlighter: rouge
 permalink: pretty
 markdown: kramdown
 exclude: ['less', 'vendor', 'node_modules', 'package.json', 'Gruntfile.js', 'README.md', '*.sublime-project']
