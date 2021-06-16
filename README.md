@@ -11,3 +11,13 @@ The following directories and their contents are copyright Bill Dami.  You may n
 * work/
 
 All other directories and files are MIT Licensed.
+
+
+# Force rebuild
+
+To force GitHub Pages to rebuild the site with the current commit, use the following command:
+
+```
+git commit -m 'rebuild pages' --allow-empty
+git push origin master
+```
