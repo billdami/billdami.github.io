@@ -1,6 +1,6 @@
 ---
 title: babel chat
-excerpt: An experimental chat app built with React and Firebase.
+excerpt: A chat app built with React and Firebase.
 excerpt_img: babel-chat-excerpt.png
 layout: default
 ---
