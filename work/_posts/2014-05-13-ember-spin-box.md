@@ -5,7 +5,7 @@ excerpt_img: ember-spin-box-excerpt.png
 layout: default
 ---
 
-ember-spin-box
+ember-spin-box (2014)
 =======
 
 A lightweight and versatile spin box component for [ember.js](http://emberjs.com) applications. 

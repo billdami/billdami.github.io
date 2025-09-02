@@ -5,7 +5,7 @@ excerpt_img: ember-date-picker-excerpt.png
 layout: default
 ---
 
-ember-date-picker
+ember-date-picker (2014)
 =======
 
 <img src="/img/ember-date-picker-hero.png" class="post-hero-img" />
